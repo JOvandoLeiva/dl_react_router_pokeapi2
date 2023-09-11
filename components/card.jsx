@@ -1,16 +1,17 @@
 import React from "react";
-import { useState } from "react";
 
-const Cards = ({name,id,url}) => {
+
+const Cards = ({name,id,url,type}) => {
 
     return (
-        <div className="d-flex justify-content-center">
-                    <div className="card">
+        <div className="">
+                    <div className="card my-2 shadow">
                         <img className="card-img-top" src={url} alt="Card image cap"/>
-                        <div className="card-body">
-                            <h5 className="card-title">{name}</h5>
-                            <p className="card-text">{id}</p>
-                            <button type="button" className="btn btn-danger">Buscar random</button>
+                        <div className="card-body m-4 ps-4">
+                            <h5 className="card-title h2 text-capitalize">{name}</h5>
+                            <p className="card-text h4 "> Número de pokemon - {id}</p>
+                            <p className="card-text h5">Tipo - {type}</p>
+                    
                         </div>
                     </div>
 

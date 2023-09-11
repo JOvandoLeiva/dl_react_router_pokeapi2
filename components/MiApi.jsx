@@ -1,8 +1,6 @@
-import { useState } from "react"
 
   const MiApi = async () => {
 
-    /*${id}*/
 
     try {
         const request = await fetch("https://pokeapi.co/api/v2/pokemon/")
@@ -20,6 +18,8 @@ import { useState } from "react"
       console.log(error)
     }
   }
+
+
 
 
 export default MiApi;
