@@ -3,24 +3,6 @@ import { useState } from "react";
 
 const Cards = ({name,id,url}) => {
 
-   /* const [pokemon, setPokemon] = useState ({name:"", id:"",img:""})
-    setPokemon(`${pokemon.name} ${pokemon.id} ${pokemon.sprites.back_default}`)*/
-   
-
-   /* const fetchData = async () => {
-        try {
-            const request = await fetch(`https://pokeapi.co/api/v2/pokemon/10`)
-            const data = await request.json()
-            console.log(data)
-            setPokemon({name:`${data.name}`, id:`${data.id}`, img:`${data.sprites.back_default}`})
-            console.log(pokemon)
-          
-        } catch (error) {
-          console.log(error)
-        }
-      }*/
-      
-
     return (
         <div className="d-flex justify-content-center">
                     <div className="card">
