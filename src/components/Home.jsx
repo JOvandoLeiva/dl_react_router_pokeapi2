@@ -10,7 +10,7 @@ const Home = () => {
         <img
           src="src\img\Pikachu.jpg"
           alt="Imagen Pokémon"
-          className="mt-4 pikachu"
+          className="mt-4 mainImages"
         />
       </div>
     </>

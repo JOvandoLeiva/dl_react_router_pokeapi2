@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Pokemon from './components/Pokemon';
 import Card from './components/card';
+import NotFound from './components/NotFound';
 
 
 
@@ -19,7 +20,7 @@ function App() {
           <Route path="/pokemon" element={<Pokemon />}  />
           <Route path="/pokemon/;" element={<Pokemon />}  />
           <Route path="/pokemon/:selectedPokemon" element={<Card />} />
-            
+          <Route path="*" element={<NotFound />}  />
         </Routes>
 
 
